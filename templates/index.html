@@ -1,3 +1,25 @@
-<body>
-    <h1> This is a flask app </h1>
-</body>
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title> Factors </title>
+        <style>
+            h1 {
+                font-size: 50px;
+                margin-top: 50px;
+                text-align: center;
+            }
+            form {
+                font-size: 25px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <form action="/calculate">
+		<label for="num"> Enter number </label> <br/> <br/>
+		<input type="text" id="num" name="num"> </input> <br/> <br/>
+
+		<input type="submit" value="Submit">
+    </form>
+
+</html>
